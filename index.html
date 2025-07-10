@@ -8,73 +8,104 @@
 </head>
 <body>
     <section class="w-100% flex flex-col sm:flex-row sm:h-dvh bg-black text-white p-7">
-    <div class="w-full sm:w-1/2 flex flex-col justify-center p-5 gap-3">
-        <div class="relative aspect-square max-w-[300px] mx-auto sm:mx-0">
-            <img 
-                src="./assets/profile.webp" 
-                class="rounded-full w-full h-full object-cover object-left mask-radial-from-60% mask-radial-to-70%" 
-                alt="Allen Navarrete"
-            >
+        <div class="w-full sm:w-1/2 flex flex-col justify-center p-5 gap-3">
+            <div class="relative aspect-square max-w-[300px] mx-auto sm:mx-0">
+                <img 
+                    src="./assets/profile.webp" 
+                    class="rounded-full w-full h-full object-cover object-left mask-radial-from-60% mask-radial-to-70%" 
+                    alt="Allen Navarrete"
+                >
+            </div>
+            <h2 class="text-3xl sm:text-4xl font-bold">Allen Navarrete</h2>
+            <p class="text-xl sm:text-2xl">Desarrollador Full-Stack | Ingeniero en informatica</p>
+            <p class="text-base sm:text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt eum impedit excepturi fuga commodi accusantium, quibusdam nulla? Mollitia optio ipsum, beatae ipsa.</p>
+            <div class="flex mt-4 gap-5">
+                <a href="" class="bg-purple-300 size-12 flex items-center justify-center rounded-full transition-all hover:bg-purple-200">
+                    <svg width="28" height="28">
+                        <use xlink:href="./assets/sprite.svg#twitch"/>
+                    </svg>
+                </a>
+                <a href="" class="bg-gray-700 size-12 flex items-center justify-center rounded-full transition-all hover:bg-gray-400">
+                    <svg width="28" height="28">
+                        <use xlink:href="./assets/sprite.svg#github"/>
+                    </svg>
+                </a>
+                <a href="" class="bg-blue-300 size-12 flex items-center justify-center rounded-full transition-all hover:bg-blue-200">
+                    <svg width="28" height="28">
+                        <use xlink:href="./assets/sprite.svg#linkedin"/>
+                    </svg>
+                </a>
+                <a href="" class="bg-black size-12 flex items-center justify-center rounded-full transition-all hover:bg-slate-700">
+                    <svg width="28" height="28">
+                        <use xlink:href="./assets/sprite.svg#x"/>
+                    </svg>
+                </a>
+            </div>
         </div>
-        <h2 class="text-3xl sm:text-4xl font-bold">Allen Navarrete</h2>
-        <p class="text-xl sm:text-2xl">Desarrollador Full-Stack | Ingeniero en informatica</p>
-        <p class="text-base sm:text-lg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt eum impedit excepturi fuga commodi accusantium, quibusdam nulla? Mollitia optio ipsum, beatae ipsa.</p>
-        <div class="flex mt-4 gap-5">
-            <a href="" class="bg-purple-300 size-12 flex items-center justify-center rounded-full transition-all hover:bg-purple-200">
-                <svg width="28" height="28">
-                    <use xlink:href="./assets/sprite.svg#twitch"/>
-                </svg>
-            </a>
-            <a href="" class="bg-gray-700 size-12 flex items-center justify-center rounded-full transition-all hover:bg-gray-400">
-                <svg width="28" height="28">
-                    <use xlink:href="./assets/sprite.svg#github"/>
-                </svg>
-            </a>
-            <a href="" class="bg-blue-300 size-12 flex items-center justify-center rounded-full transition-all hover:bg-blue-200">
-                <svg width="28" height="28">
-                    <use xlink:href="./assets/sprite.svg#linkedin"/>
-                </svg>
-            </a>
-            <a href="" class="bg-black size-12 flex items-center justify-center rounded-full transition-all hover:bg-slate-700">
-                <svg width="28" height="28">
-                    <use xlink:href="./assets/sprite.svg#x"/>
-                </svg>
-            </a>
+        <div class="w-full sm:w-1/2 flex items-center justify-center">
+            <ul class="flex flex-col text-xl mt-6 sm:text-2xl lg:text-3xl gap-3">
+                <li><a href="#sobremi">01 Sobre mi</a></li>
+                <li><a href="#habilidades">02 Habilidades</a></li>
+                <li><a href="#proyectos">03 Proyectos</a></li>
+                <li><a href="#servicios">04 Servicios</a></li>
+                <li><a href="#recomendaciones">05 Recomendaciones</a></li>
+                <li><a href="#contactos">06 Contactos</a></li>
+            </ul>
         </div>
-    </div>
-    <div class="w-full sm:w-1/2 flex items-center justify-center">
-        <ul class="flex flex-col text-xl mt-6 sm:text-2xl lg:text-3xl gap-3">
-            <li><a href="#sobremi">01 Sobre mi</a></li>
-            <li><a href="#habilidades">02 Habilidades</a></li>
-            <li><a href="#proyectos">03 Proyectos</a></li>
-            <li><a href="#servicios">04 Servicios</a></li>
-            <li><a href="#recomendaciones">05 Recomendaciones</a></li>
-            <li><a href="#contactos">06 Contactos</a></li>
-        </ul>
-    </div>
-</section>
-<section class="w-100% flex flex-col gap-10 sm:h-dvh bg-black text-white p-7">
-    <div class="flex flex-col gap-10 h-1/2 items-center sm:flex-row sm:p-5">
-        <div class="flex flex-col gap-3 sm:w-1/3">
-            <h2 class="font-bold text-3xl">Sobre mi</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum praesentium sed provident iure pariatur animi ipsam quis, unde ad nostrum eveniet. Expedita non similique quibusdam maiores facilis inventore temporibus ad.</p>
+    </section>
+    <section class="w-100% flex flex-col gap-10 sm:h-dvh bg-black text-white p-7">
+        <div class="flex flex-col gap-10 h-1/2 items-center sm:flex-row sm:p-5">
+            <div class="flex flex-col border-l-8 pl-3 gap-3 sm:w-1/3">
+                <h2 class="font-bold text-3xl">Sobre mi</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum praesentium sed provident iure pariatur animi ipsam quis, unde ad nostrum eveniet. Expedita non similique quibusdam maiores facilis inventore temporibus ad.</p>
 
-        </div>
-        <div class="flex flex-col gap-3 sm:w-1/3">
-            <h2 class="font-bold text-3xl">Academico</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae necessitatibus deleniti accusamus alias earum, quas quod fugiat laudantium nobis ex eos recusandae omnis, aperiam ducimus accusantium commodi dolore, saepe corrupti?</p>
+            </div>
+            <div class="flex flex-col border-l-8 pl-3 gap-3 sm:w-1/3">
+                <h2 class="font-bold text-3xl">Academico</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae necessitatibus deleniti accusamus alias earum, quas quod fugiat laudantium nobis ex eos recusandae omnis, aperiam ducimus accusantium commodi dolore, saepe corrupti?</p>
 
+            </div>
+            <div class="flex flex-col border-l-8 pl-3 gap-3 sm:w-1/3">
+                <h2 class="font-bold text-3xl">Experiencia</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae necessitatibus deleniti accusamus alias earum, quas quod fugiat laudantium nobis ex eos recusandae omnis, aperiam ducimus accusantium commodi dolore, saepe corrupti?</p>
+            </div>
         </div>
-        <div class="flex flex-col gap-3 sm:w-1/3">
-            <h2 class="font-bold text-3xl">Experiencia</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae necessitatibus deleniti accusamus alias earum, quas quod fugiat laudantium nobis ex eos recusandae omnis, aperiam ducimus accusantium commodi dolore, saepe corrupti?</p>
+        <div class="flex flex-col gap-3 border-t-red-600 border-t-8 h-1/2 justify-center sm:p-5">
+            <h2 class="font-bold text-3xl">Enfoque profesional</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur asperiores obcaecati labore officiis reiciendis quis facere iure exercitationem, laborum quos odit dolores sint. Qui quam pariatur exercitationem repellat. Vero, accusantium.</p>
         </div>
-    </div>
-    <div class="flex flex-col gap-3 h-1/2 justify-center sm:p-5">
-        <h2 class="font-bold text-3xl">Enfoque profesional</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur asperiores obcaecati labore officiis reiciendis quis facere iure exercitationem, laborum quos odit dolores sint. Qui quam pariatur exercitationem repellat. Vero, accusantium.</p>
-    </div>
-
-</section>
+    </section>
+    <section class="w-100% flex gap-10 sm:h-dvh bg-black text-white p-7">
+        <div class="flex flex-col w-1/3 gap-6 justify-center">
+            <h2 class="font-bold text-4xl">Proyectos:</h2>
+            <div class="flex flex-col gap-5">
+                <h3 class="font-bold">Portafolio Allen Navarrete (2025)</h3>
+                <ul class="flex flex-col gap-4">
+                    <li>
+                        <strong>Tecnologias usadas:</strong>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, eum. Inventore culpa quae ex mollitia similique.
+                    </li>
+                    <li>
+                        <strong>Procesos:</strong>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, eum. Inventore culpa quae ex mollitia similique.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="grid grid-cols-3 gap-3 p-5 w-2/3 mask-b-from-50%">
+            <div class="bg-amber-100 h-50 rounded-2xl"></div>
+            <div class="bg-amber-100 h-50 rounded-2xl"></div>
+            <div class="bg-amber-100 h-50 rounded-2xl"></div>
+            <div class="bg-amber-100 h-50 rounded-2xl"></div>
+            <div class="bg-amber-100 h-50 rounded-2xl"></div>
+            <div class="bg-amber-100 h-50 rounded-2xl"></div>
+            <div class="bg-amber-100 h-50 rounded-2xl"></div>
+            <div class="bg-amber-100 h-50 rounded-2xl"></div>
+            <div class="bg-amber-100 h-50 rounded-2xl"></div>
+        </div>
+    </section>
+    <section class="w-100% flex gap-10 sm:h-dvh bg-black text-white p-7 justify-center items-center">
+        <h1 class="font-bold text-9xl">"WIP"</h1>
+    </section>
 </body>
 </html>
