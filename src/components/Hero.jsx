@@ -51,7 +51,7 @@ export const Hero = () => {
                     className="flex flex-row justify-center items-center flex-wrap xl:flex-col xl:items-end gap-6 text-3xl sm:text-4xl font-bold select-none text-center xl:text-right">
                     <MenuLink index="01" text="Sobre mi" color="text-[#FF3B3B] hover:text-[#FF9A9A]" />
                     <MenuLink index="02" text="Enfoque" color="text-[#3B82FF] hover:text-[#9AC3FF]" />
-                    <MenuLink index="03" text="Académico" color="text-[#F8E71C] hover:text-[#FFF47A]" />
+                    <MenuLink index="03" text="Academico" color="text-[#F8E71C] hover:text-[#FFF47A]" />
                     <MenuLink index="04" text="Experiencia" color="text-[#FF2EC4] hover:text-[#FF8BE8]" />
                     <MenuLink index="05" text="Habilidades" color="text-[#32FF6A] hover:text-[#A2FFBE]" />
                     <MenuLink index="06" text="Proyectos" color="text-[#00F0FF] hover:text-[#8CF9FF]" />

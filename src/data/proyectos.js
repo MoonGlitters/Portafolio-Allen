@@ -5,7 +5,7 @@ export const proyectos = [
         descripcion: "Mi portafolio personal creado desde cero con React + Tailwind.",
         tecnologias: "React, Vite, TailwindCSS",
         repo: "https://github.com/MoonGlitters/Portafolio-Allen",
-        imagen: "/assets/pro1.png"
+        imagen: "/pro1.png"
     },
     {
         id: 2,
@@ -19,21 +19,21 @@ export const proyectos = [
         nombre: "Ejercicio bootcamp Modulo 9 (Login) (2025)",
         tecnologias: "React, Node.js, Sequelize, JWT",
         repo: "https://github.com/MoonGlitters/rutas-protegidas",
-        imagen: "./pro2.png"
+        imagen: "./pro3.png"
     },
 ];
 
 export const habilidadesTecnicas = [
-    "Lenguajes de programación: Javascript (Principal), Python, C#, Kotlin.",
-    "Frameworks y tecnologías: Django, React, React Native, Express, TailwindCSS, Bootstrap.",
-    "Plataformas y servicios cloud: AWS, Supabase, Render.",
-    "Bases de datos: MySQL, PostgreSQL, MongoDB, Oracle.",
-    "Herramientas: Git, GitHub, VS Code, Android Studio, Postman.",
-    "Sistemas Operativos / administración: Linux, Windows Server, RedHat.",
-    "Testing & QA: SonarQube, Jest.",
-    "Diseño y UI/UX: Photoshop, Adobe Illustrator.",
-    "Metodologías: Desarrollo ágil (Scrum), API RESTful, integración de sistemas.",
-    "Soft Skills: Español (Nativo), Inglés (intermedio), Comunicación Efectiva, Manejo y modelado de datos",
+    {sec:"Lenguajes de programación:", pro:"Javascript (Principal), Python, C#, Kotlin."},
+    {sec:"Frameworks y tecnologías:", pro:"Django, React, React Native, Express, TailwindCSS, Bootstrap."},
+    {sec:"Plataformas y servicios cloud:", pro:"AWS, Supabase, Render."},
+    {sec:"Bases de datos:", pro:"MySQL, PostgreSQL, MongoDB, Oracle."},
+    {sec:"Herramientas:", pro:"Git, GitHub, VS Code, Android Studio, Postman."},
+    {sec:"Sistemas Operativos / administración:", pro:"Linux, Windows Server, RedHat."},
+    {sec:"Testing & QA:", pro:"SonarQube, Jest."},
+    {sec:"Diseño y UI/UX:", pro:"Photoshop, Adobe Illustrator."},
+    {sec:"Metodologías:", pro:"Desarrollo ágil (Scrum), API RESTful, integración de sistemas."},
+    {sec:"Soft Skills:", pro:"Español (Nativo), Inglés (intermedio), Comunicación Efectiva, Manejo y modelado de datos"},
 ]
 
 export const AcademicoList = [
